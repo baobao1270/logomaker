@@ -1,0 +1,6 @@
+<svg height="{0}" width="{0}" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<rect width="100%" height="100%" fill="{1}" />
+    <text y="{6}" x="50%" fill="{2}" style="text-anchor:middle; font-size: {3}px; font-family: '{4}'">
+		{5}
+	</text>
+</svg>
