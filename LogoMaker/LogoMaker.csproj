@@ -114,6 +114,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Resources\SvgBase.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ilmerge">
