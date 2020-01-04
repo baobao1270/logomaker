@@ -61,6 +61,89 @@ namespace LogoMaker {
         }
         
         /// <summary>
+        ///   查找类似 ERROR: Extension {0} not supported. 的本地化字符串。
+        /// </summary>
+        internal static string ExtensionNotSupportedNotice {
+            get {
+                return ResourceManager.GetString("ExtensionNotSupportedNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} File saved at: {1} 的本地化字符串。
+        /// </summary>
+        internal static string FileSavedNotice {
+            get {
+                return ResourceManager.GetString("FileSavedNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} File saved with format {1} at: {2} 的本地化字符串。
+        /// </summary>
+        internal static string FileSavedNoticeWithExtension {
+            get {
+                return ResourceManager.GetString("FileSavedNoticeWithExtension", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Error occured when encoding icon file with High-Quality Icon Encoder. File not generated. 的本地化字符串。
+        /// </summary>
+        internal static string IconHQIEFailedNotice {
+            get {
+                return ResourceManager.GetString("IconHQIEFailedNotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Notice: Icon size larger than 128x128 may cause problems in OS earlier than Windows Vista. 的本地化字符串。
+        /// </summary>
+        internal static string IconLargerThan128Notice {
+            get {
+                return ResourceManager.GetString("IconLargerThan128Notice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Notice: Icon size larger than 256x256 may be unnecessary. It is not compatible with many systems and may cause performance problems. 的本地化字符串。
+        /// </summary>
+        internal static string IconLargerThan256Notice {
+            get {
+                return ResourceManager.GetString("IconLargerThan256Notice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Notice: You are making a icon file larger than 48x48 with Windows Native Icon Encoder, please notice that it may not work as you expected. 的本地化字符串。
+        /// </summary>
+        internal static string IconLargerThan48UseWNIENotice {
+            get {
+                return ResourceManager.GetString("IconLargerThan48UseWNIENotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Using High-Quality Icon Encoder.
+        ///Suggestion: You are using High-Quality Icon Encoder. It can generate icon files with high quality but less compative. Icon generated may not work on OS eariler than Windows XP. If you want to make a low-quality icon and/or you want to use it on old OS, please use Windows Native Icon Encoder by adding -W argument. 的本地化字符串。
+        /// </summary>
+        internal static string IconUseHQIENotice {
+            get {
+                return ResourceManager.GetString("IconUseHQIENotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Using Windows Native Icon Encoder.
+        ///Suggestion: You are using Windows Native Icon Encoder. It is more compative for OS eariler than Windows XP but may cause unexpected result, for it only support icon files smaller than 48x48@16. If you want to make a high-quality icon and only use it on modern OS, please use High-Quality Icon Encoder by removing -W argument. 的本地化字符串。
+        /// </summary>
+        internal static string IconUseWNIENotice {
+            get {
+                return ResourceManager.GetString("IconUseWNIENotice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 &lt;svg height=&quot;{0}&quot; width=&quot;{0}&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; version=&quot;1.1&quot;&gt;
         ///	&lt;rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;{1}&quot; /&gt;
         ///    &lt;text y=&quot;{6}&quot; x=&quot;50%&quot; fill=&quot;{2}&quot; style=&quot;text-anchor:middle; font-size: {3}px; font-family: &apos;{4}&apos;&quot;&gt;

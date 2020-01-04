@@ -117,6 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ExtensionNotSupportedNotice" xml:space="preserve">
+    <value>ERROR: Extension {0} not supported.</value>
+  </data>
+  <data name="FileSavedNotice" xml:space="preserve">
+    <value>{0} File saved at: {1}</value>
+  </data>
+  <data name="FileSavedNoticeWithExtension" xml:space="preserve">
+    <value>{0} File saved with format {1} at: {2}</value>
+  </data>
+  <data name="IconHQIEFailedNotice" xml:space="preserve">
+    <value>Error occured when encoding icon file with High-Quality Icon Encoder. File not generated.</value>
+  </data>
+  <data name="IconLargerThan128Notice" xml:space="preserve">
+    <value>Notice: Icon size larger than 128x128 may cause problems in OS earlier than Windows Vista.</value>
+  </data>
+  <data name="IconLargerThan256Notice" xml:space="preserve">
+    <value>Notice: Icon size larger than 256x256 may be unnecessary. It is not compatible with many systems and may cause performance problems.</value>
+  </data>
+  <data name="IconLargerThan48UseWNIENotice" xml:space="preserve">
+    <value>Notice: You are making a icon file larger than 48x48 with Windows Native Icon Encoder, please notice that it may not work as you expected.</value>
+  </data>
+  <data name="IconUseHQIENotice" xml:space="preserve">
+    <value>Using High-Quality Icon Encoder.
+Suggestion: You are using High-Quality Icon Encoder. It can generate icon files with high quality but less compative. Icon generated may not work on OS eariler than Windows XP. If you want to make a low-quality icon and/or you want to use it on old OS, please use Windows Native Icon Encoder by adding -W argument.</value>
+  </data>
+  <data name="IconUseWNIENotice" xml:space="preserve">
+    <value>Using Windows Native Icon Encoder.
+Suggestion: You are using Windows Native Icon Encoder. It is more compative for OS eariler than Windows XP but may cause unexpected result, for it only support icon files smaller than 48x48@16. If you want to make a high-quality icon and only use it on modern OS, please use High-Quality Icon Encoder by removing -W argument.</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="SvgBase" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SvgBase.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
