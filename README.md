@@ -5,7 +5,7 @@ LogoMaker is an easy way to make periodic table-like icons for your personal pro
  * Generate icons in less than 2 alphabet (like periodic table). It accepts all ASCII characters. 
  * Costum background size and color, costum text size and color.
  * Use any font family installed on your computer.
- * Support output file formats: jpeg, png, gif, bmp, tiff, wmf, emf.
+ * Support output file formats: jpeg, png, gif, bmp, tiff, svg, ico.
  * Linux style command line args.
 
 # Installation
